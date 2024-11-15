@@ -14,16 +14,33 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'О проекте',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Информация о проекте', link: '/' },
+          { text: 'Установка', link: '/installation' },
+        ]
+      },
+      {
+        text: 'Базовое использование',
+        items: [
+          { text: 'Настройка', link: '/basic-usage/configuration' },
+          { text: 'Асинхронные сторы', link: '/basic-usage/async-stores' },
+          { text: 'asyncData', link: '/basic-usage/async-data' },
+        ]
+      },
+      {
+        text: 'Основное использование',
+        items: [
+          { text: 'Асинхронная регистрация приложения', link: '/usage/async-app-registration' },
+          { text: 'Unhead', link: '/usage/unhead' },
+          { text: 'Кастомный index.html', link: '/usage/custom-index-html' },
+          { text: 'router', link: '/usage/router' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://gitlab.zebrains.team/frontend/modules/lite-ssr' }
     ]
   }
 })
