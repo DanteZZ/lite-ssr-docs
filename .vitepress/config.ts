@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Lite-SSR Docs",
   description: "Documentation for Lite-SSR",
-  base: "/lite-ssr-docs/",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
