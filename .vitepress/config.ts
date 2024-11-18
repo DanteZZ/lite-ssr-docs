@@ -31,5 +31,15 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://gitlab.zebrains.team/frontend/modules/lite-ssr' }
     ]
+  },
+
+  markdown: {
+    container: {
+      tipLabel: 'СОВЕТ',
+      warningLabel: 'ПРЕДУПРЕЖДЕНИЕ',
+      dangerLabel: 'ОПАСНОСТЬ',
+      infoLabel: ' ',
+      detailsLabel: 'Подробная информация'
+    }
   }
 })
