@@ -10,11 +10,7 @@
 
 </div>
 
----
-
-## 💾 **О проекте**
-
-<a href="https://www.npmjs.com/package/lite-ssr">npmjs.com/package/lite-ssr</a>
+## 💾 **О проекте** {#about}
 
 Данная библиотека разработана для организации SSR в Vite/Vue3 проектах, с минимальными требованиями по архитектуре.
 
@@ -27,7 +23,7 @@
 
 <br />
 
-## 💻 **Технологии**
+## 💻 **Технологии** {#technologies}
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
@@ -39,9 +35,9 @@
 
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 
----
+<!-- ---
 
-<!-- ## 📌 **LINKS**
+## 📌 **Ссылки** {#links}
 
 [<img alt="Github" src="https://img.shields.io/badge/[username]-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/[username])
 [<img alt="Twitter" src="https://img.shields.io/badge/[username]-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" />](https://twitter.com/[username])
