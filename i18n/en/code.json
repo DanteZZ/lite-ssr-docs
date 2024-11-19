@@ -1,0 +1,11 @@
+{
+    "home.title": {
+        "message": "Lightweight SSR for Vite"
+    },
+    "home.description": {
+        "message": "LiteSSR is a versatile, open-source library designed for seamless integration with any framework based on Vite. It provides an efficient solution for server-side rendering, enabling fast and flexible development."
+    },
+    "home.beginButton": {
+        "message": "Introduction - 5min. ⏱️"
+    }
+}

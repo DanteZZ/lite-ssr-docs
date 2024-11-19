@@ -1,0 +1,18 @@
+{
+    "copyright": {
+      "message": "Copyright © 2024 LiteSSR. Built with love."
+    },
+    
+    "link.title.Документация": {
+      "message": "Docs"
+    },
+    "link.item.label.Начало работы": {
+      "message": "Introduction"
+    },
+    "link.title.Сообщество": {
+      "message": "Community"
+    },
+    "link.title.Ссылки": {
+      "message": "More"
+    }
+}

@@ -1,0 +1,36 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #df4949; /* Мягкий красный */
+  --ifm-color-primary-dark: #d32f2f; /* Темный мягкий красный */
+  --ifm-color-primary-darker: #c62828; /* Еще темнее мягкий красный */
+  --ifm-color-primary-darkest: #b71c1c; /* Очень темный мягкий красный */
+  --ifm-color-primary-light: #ef9a9a; /* Светлый мягкий красный */
+  --ifm-color-primary-lighter: #f44336; /* Яркий, но мягкий красный */
+  --ifm-color-primary-lightest: #ff7961; /* Очень светлый мягкий красный */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Для улучшения читаемости в темной теме выберите более светлую палитру. */
+[data-theme='dark'] {
+  --ifm-color-primary: #C05252; /* Мягкий красный */
+  --ifm-color-primary-dark: #d32f2f; /* Темный мягкий красный */
+  --ifm-color-primary-darker: #c62828; /* Еще темнее мягкий красный */
+  --ifm-color-primary-darkest: #b71c1c; /* Очень темный мягкий красный */
+  --ifm-color-primary-light: #ef9a9a; /* Светлый мягкий красный */
+  --ifm-color-primary-lighter: #f44336; /* Яркий, но мягкий красный */
+  --ifm-color-primary-lightest: #ff7961; /* Очень светлый мягкий красный */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-heading-color: #f8f8f8;
+  --ifm-font-color-base-inverse: #f5f5f5;
+}
+
+.footer {
+  background-color: #1b1b1d;
+}
