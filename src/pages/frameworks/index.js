@@ -29,7 +29,7 @@ export default function Home() {
                     <CardFooter style={{ backgroundColor: 'var(--ifm-navbar-background-color)' , color:'black'}} className='text--center'> 
                     <div className='button-group button-group--block'>
                         {/* <button className='button button--success'>Like</button> */}
-                        <Link as={'button'} href="docs/frameworks/zebrains-lssr-vue" className='button button--primary'>Документация</Link>
+                        <Link as={'button'} href="/docs/frameworks/zebrains-lssr-vue" className='button button--primary'>Документация</Link>
                     </div>
                     </CardFooter> 
                 </Card>
