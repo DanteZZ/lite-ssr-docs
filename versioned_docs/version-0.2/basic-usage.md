@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# 🔎 **ИСПОЛЬЗОВАНИЕ**  {#basic-usage}
+# 🔎 Базовое использование  {#basic-usage}
 
 ## Конфигурация LSSR {#lssr-config}
 ```typescript

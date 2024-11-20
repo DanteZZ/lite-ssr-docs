@@ -85,7 +85,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.jpg',
       navbar: {
         title: 'LiteSSR',
         logo: {
@@ -98,6 +98,15 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Документация',
+          },
+          {
+            position: 'left',
+            label: 'Фреймворки',
+            to: '/frameworks',
+            items: [{
+              label: "Vue3",
+              to: "/docs/frameworks/zebrains-lssr-vue"
+            }]
           },
           // {to: '/blog', label: 'Блог', position: 'left'},
           {
@@ -155,7 +164,7 @@ const config = {
               // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/DanteZZ/lite-ssr',
               },
             ],
           },
