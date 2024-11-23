@@ -34,7 +34,8 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ru',
-    locales: ['ru', 'en']
+    // locales: ['ru', 'en']
+    locales: ['ru']
   },
 
   presets: [
@@ -47,7 +48,7 @@ const config = {
           lastVersion: 'current',
             versions: {
               'current': {
-                label: '0.3 (current)',
+                label: '0.4',
                 path: '',
               },
               '0.2': {
@@ -56,7 +57,7 @@ const config = {
               }
             },
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/DanteZZ/lite-ssr-docs/tree/main/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -67,7 +68,7 @@ const config = {
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
         //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        //     'https://github.com/DanteZZ/lite-ssr-docs/tree/main/',
         //   // Useful options to enforce blogging best practices
         //   onInlineTags: 'warn',
         //   onInlineAuthors: 'warn',
