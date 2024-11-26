@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LiteSSR',
-  tagline: 'Легковесная реализация SSR для Vite',
+  tagline: 'Универсальная реализация SSR для Vite',
   favicon: 'img/favicon.ico',
   
 
@@ -106,7 +106,7 @@ const config = {
             to: '/frameworks',
             items: [{
               label: "Vue3",
-              to: "/docs/frameworks/zebrains-lssr-vue"
+              to: "/docs/renderers/zb-vue"
             }]
           },
           // {to: '/blog', label: 'Блог', position: 'left'},

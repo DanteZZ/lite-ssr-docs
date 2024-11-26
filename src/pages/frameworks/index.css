@@ -1,0 +1,13 @@
+img.zb-vue-logo {
+  content: url('/img/frameworks/zb-vue.png');
+}
+[data-theme='dark'] img.zb-vue-logo {
+  content: url('/img/frameworks/zb-vue-dark.png');
+}
+
+img.zb-react-logo {
+  content: url('/img/frameworks/zb-react.png');
+}
+[data-theme='dark'] img.zb-react-logo {
+  content: url('/img/frameworks/zb-react-dark.png');
+}

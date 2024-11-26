@@ -41,7 +41,7 @@ export default defineLssrConfig({
 });
 ```
 
-4. Добавляем файл конфигурации в`tsconfig.node.json`
+4. kmv5          конфигурации в`tsconfig.node.json`
 
 ```json
 // tsconfig.node.json

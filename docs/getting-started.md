@@ -7,6 +7,6 @@ sidebar_position: 2
 
 ## Быстрые ссылки  
 
-- [Использование с Vue](./frameworks/zebrains-lssr-vue/intro.md)  
+- [Использование с Vue](./renderers/zb-vue/intro.md)  
 <!-- - [Использование с React](#использование-с-react)   -->
 - [Создание собственного генератора](./advanced/creating-custom-renderer.md)  
