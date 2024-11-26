@@ -132,14 +132,12 @@ export class CustomRenderer extends Renderer {
 
 ### Шаг 4: Экспорт генератора и плагинов
 
-Для удобства работы с плагинами, добавьте метод `definePlugin` в ваш генератор, используя `defineRendererPlugin` из `lite-ssr`.
+Для удобства работы с плагинами, экспортируйте метод `definePlugin` из вашего генератора.
 
 ```ts
 // /renderer.ts
 
 import { CustomRenderer } from "./common/CustomRenderer.js";
-import { defineRendererPlugin } from "@lite-ssr/core/shared";
-
 const { definePlugin } = CustomRenderer;
 
 export {
