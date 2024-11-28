@@ -1,8 +1,8 @@
-img.zb-vue-logo {
-  content: url('/img/frameworks/zb-vue.png');
+img.vue-logo {
+  content: url('/img/frameworks/vue3.png');
 }
-[data-theme='dark'] img.zb-vue-logo {
-  content: url('/img/frameworks/zb-vue-dark.png');
+[data-theme='dark'] img.vue-logo {
+  content: url('/img/frameworks/vue3-dark.png');
 }
 
 img.zb-react-logo {

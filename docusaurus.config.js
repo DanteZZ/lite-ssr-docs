@@ -106,7 +106,7 @@ const config = {
             to: '/frameworks',
             items: [{
               label: "Vue3",
-              to: "/docs/renderers/zb-vue"
+              to: "/docs/renderers/vue"
             }]
           },
           // {to: '/blog', label: 'Блог', position: 'left'},

@@ -32,7 +32,7 @@ pnpm create vite
 Установите основную библиотеку LiteSSR и генератор для Vue:
 
 ```bash
-pnpm i lite-ssr @zebrains/lssr-vue
+pnpm i lite-ssr @lite-ssr/vue
 ```
 
 ---
@@ -65,7 +65,7 @@ export default app; // Обязательно экспортируем app
 
 ```ts
 import { defineLssrConfig } from 'lite-ssr';
-import { VueRenderer } from '@zebrains/lssr-vue';
+import { VueRenderer } from '@lite-ssr/vue';
 
 export default defineLssrConfig({
     renderer: VueRenderer, // Используем VueRenderer

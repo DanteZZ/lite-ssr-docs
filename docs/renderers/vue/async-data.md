@@ -73,7 +73,7 @@ export const useTodo = definePrefetchStore('todo', () => {
 
 После создания префетч-стора, его можно использовать в компонентах для выполнения асинхронных операций и отображения данных.
 
-```vue
+```html
 <template>
     <div>
         <span v-if="loading">Загрузка данных...</span>
@@ -117,7 +117,7 @@ export const useTodo = definePrefetchStore('todo', () => {
 
 ### Пример использования useAsyncData
 
-```vue
+```html
 <!-- App.vue -->
 <template>
     <div>

@@ -16,11 +16,11 @@ function Frameworks() {
   <Columns>
       <Column className="col--3">
         <Card>
-          <img className={clsx('card__image', "zb-vue-logo")} alt="Vue logo by ZB"/>
+          <img className={clsx('card__image', "vue-logo")} alt="Vue logo by ZB"/>
           <CardFooter style={{ backgroundColor: 'var(--ifm-navbar-background-color)' , color:'black', paddingTop: '.5rem'}} className='text--center'> 
             <div className='button-group button-group--block' >
               {/* <button className='button button--success'>Like</button> */}
-              <Link as={'button'} href="/docs/renderers/zb-vue" className='button button--primary'>Документация</Link>
+              <Link as={'button'} href="/docs/renderers/vue" className='button button--primary'>Документация</Link>
             </div>
           </CardFooter> 
         </Card>
