@@ -93,9 +93,7 @@ export const useTodo = definePrefetchStore('todo', () => {
     const serializedData = computed(() => todo.value ? JSON.stringify(todo.value, null, '\t') : '');
 
     // Получаем данные при монтировании компонента
-    onMounted(() => {
-        fetchTodo(1);
-    });
+    await fetchTodo(1);
 </script>
 ```
 
@@ -106,10 +104,6 @@ export const useTodo = definePrefetchStore('todo', () => {
 - **Импортируем стор**: Подключаем `useTodo` для доступа к состояниям и функциям.
 - **Сериализация данных**: Используем `computed` для преобразования полученных данных в строку для удобного отображения.
 - **Инициация запроса**: При монтировании компонента вызываем `fetchTodo` для получения данных задачи с идентификатором `1`.
-
-:::warning
-Асинхронные методы, возвращаемые префетч-сторами, являются асинхронными и регистрируются на стороне SSR через хук `onPrefetch`. Поэтому их нельзя использовать внутри других хуков, таких как `onMounted`. На стороне SSR эти методы ничего не вернут, но на клиенте они работают как обычные асинхронные функции.
-:::
 
 ## useAsyncData
 
@@ -139,7 +133,7 @@ export const useTodo = definePrefetchStore('todo', () => {
     };
 
     // Выполняем запрос
-    const { data, loading, error } = useAsyncData('todo', () => fetchTodo(1));
+    const { data, loading, error } = await useAsyncData('todo', () => fetchTodo(1));
 
     // Сериализуем данные для удобочитаемости
     const serializedData = computed(() => data.value ? JSON.stringify(data.value, null, '\t') : '');

@@ -69,7 +69,7 @@ import { useHead } from '@unhead/vue';
 
 // Используем хук для получения и загрузки данных
 const { todo, fetchTodo } = useTodo();
-fetchTodo(1);
+await fetchTodo(1);
 
 // Динамически обновляем титул в зависимости от полученного todo
 useHead({
